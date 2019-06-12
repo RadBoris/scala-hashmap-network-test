@@ -1,10 +1,13 @@
 package client
 
-import akka.actor.{Actor, ActorRef, Props, Address}
 import akka.routing.{Broadcast, RoundRobinPool, ConsistentHashingPool}
 import akka.routing.ConsistentHashingRouter.ConsistentHashMapping
 import akka.remote.routing.{RemoteRouterConfig}
 
+import akka.actor._
+import akka.cluster.Cluster
+import akka.cluster.ClusterEvent._
+import ClusteringConfig._
 
 import com.typesafe.config.ConfigFactory
 

@@ -1,37 +1,7 @@
 [0m[[0m[33mwarn[0m] [0m[0m/root/scala-hashmap-network-test/src/main/scala/client/mapreduceclient.scala:4:17: Unused import[0m
 [0m[[0m[33mwarn[0m] [0m[0mimport scala.io.Source[0m
 [0m[[0m[33mwarn[0m] [0m[0m                ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/root/scala-hashmap-network-test/src/main/scala/client/masteractor.scala:3:27: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport akka.actor.{Actor, ActorRef, Props, Address}[0m
-[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/root/scala-hashmap-network-test/src/main/scala/common/mapactor.scala:3:33: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport scala.collection.mutable.HashSet[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/root/scala-hashmap-network-test/src/main/scala/common/mapactor.scala:5:29: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport akka.remote.routing.{RemoteRouterConfig}[0m
-[0m[[0m[33mwarn[0m] [0m[0m                            ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/root/scala-hashmap-network-test/src/main/scala/common/mapactor.scala:6:20: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport akka.remote.RemoteActorRef[0m
-[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/root/scala-hashmap-network-test/src/main/scala/common/mapactor.scala:8:20: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport akka.remote.RemoteScope[0m
-[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/root/scala-hashmap-network-test/src/main/scala/common/reduceactor.scala:3:35: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport scala.collection.mutable.{ HashMap, MultiMap, Set, MutableList}[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/root/scala-hashmap-network-test/src/main/scala/common/reduceactor.scala:3:44: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport scala.collection.mutable.{ HashMap, MultiMap, Set, MutableList}[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/root/scala-hashmap-network-test/src/main/scala/common/reduceactor.scala:3:54: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport scala.collection.mutable.{ HashMap, MultiMap, Set, MutableList}[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                     ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/root/scala-hashmap-network-test/src/main/scala/common/reduceactor.scala:3:59: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport scala.collection.mutable.{ HashMap, MultiMap, Set, MutableList}[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/root/scala-hashmap-network-test/src/main/scala/common/reduceactor.scala:4:27: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport akka.actor.{Actor, ActorRef}[0m
-[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/root/scala-hashmap-network-test/src/main/scala/server/mapreduceserver.scala:6:15: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport common._[0m
-[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m12 warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/scala-hashmap-network-test/src/main/scala/client/mapreduceclient.scala:5:28: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.typesafe.config.ConfigFactory[0m
+[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

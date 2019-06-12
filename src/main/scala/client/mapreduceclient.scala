@@ -7,7 +7,15 @@ import com.typesafe.config.ConfigFactory
 import common._
 
  object MapReduceClient extends App {
-	val system = ActorSystem("MapReduceClient", ConfigFactory.load.getConfig("client"));
+ 	   import ClusteringConfig._
+
+	//val system = ActorSystem("MapReduceClient", ConfigFactory.load.getConfig("client"));
+
+
+	implicit val system = ActorSystem(clusterName)
+
+
+	val clusterListener = system.actorOf(Props[ClusterListener], name = "clusterListener")
 
   	val master = system.actorOf(Props[MasterActor], name = "master")
 
